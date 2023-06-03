@@ -1,0 +1,498 @@
+/* common css start */
+*{
+    outline: 0;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.container{
+    width: 1200px;
+    margin: auto;
+}
+.row{
+    display: flex;
+    flex-wrap: wrap;
+}
+a{
+    text-decoration: none;
+}
+
+/* common css end */
+/* nav section start */
+.contactinfo a{
+    text-decoration: none;
+    color: white;
+    
+}
+.contact{
+    padding: 15px;
+    padding-left: 40px;
+
+}
+.contactinfo{
+    width: 100%;
+    background-color: red;
+}
+.navbar .row{
+    justify-content: space-between;
+}
+.navbar img{
+    width: 200px;
+    padding: 20px;
+}
+.navbar ul li{
+    list-style-type: none;
+    padding: 20px 30px;
+    margin-top: 30px;
+
+}
+.navbar .brouse{
+    background-color: red;
+    border-radius: 20px;
+}
+.navbar .brouse a{
+    color: white;
+}
+
+/* nav section tend */
+
+/* creative it info section start */
+.infocit{
+    padding-bottom: 80px;
+    background-color: rgb(253, 246, 238)
+    
+    
+}
+.infocit .creativeitinfo{
+    width: 40%;
+}
+.infocit .creativeitinfo h5{
+    padding: 20px 15px 0px;
+}
+
+.infocit .creativeitinfo h2{
+    color: black;
+    padding: 15px;
+
+}
+.infocit .creativeitinfo h1{
+    color: rgb(222, 77, 77);
+    padding: 0px 15px 15px;
+
+}
+.infocit .creativeitinfo p{
+    padding: 0px 15px;
+    line-height: 30px;
+}
+.infocit .creativeitinfo a{
+    width: 180px;
+    display: inline-block;
+    height: 50px;
+    background-color: brown;
+    background-color: rgb(222, 77, 77);
+    border-radius: 10px;
+    color: white;
+    text-align: center;
+    padding: 20px 15px;
+    padding-top: 10px;
+    margin: 20px;
+}
+.infocit .creativeitvedio{
+    width: 60%;
+}
+.infocit .creativeitvedio img{
+    width: 700px;
+    border-radius: 50px;
+    padding: 10px;
+    margin: 20px;
+}
+/* .infocit .creativeitinfo .last{
+    
+} */
+
+
+.join{
+    background-color:  rgb(255, 246, 230);
+    margin: 25px;
+}
+.join .uinfo{
+    width: 50%;
+}
+.join .uinfo h5{
+    padding: 20px 15px 0px;
+}
+
+.join .uinfo h2{
+    color: black;
+    padding: 40px;
+
+}
+.join .uinfo h1{
+    color: rgb(222, 77, 77);
+    padding: 0px 15px 15px;
+
+}
+.join .uinfo p{
+    padding: 0px 45px;
+    line-height: 39px;
+}
+.join .uinfo a{
+    width: 215px;
+    display: inline-block;
+    height: 50px;
+    background-color: brown;
+    background-color: rgb(222, 77, 77);
+    border-radius: 10px;
+    color: white;
+    text-align: center;
+    padding: 20px 15px;
+    padding-top: 10px;
+    margin: 45px;
+}
+.join .vdo{
+    width: 50%;
+    padding-top: 30px;
+}
+.join .vdo img{
+    border-radius: 20px;
+    height: 400px;
+}
+
+.ctg{
+    padding: 40px 25px;
+    background-color: rgb(255, 246, 230);
+    margin: 20px;
+}
+.ctg .sub{
+    width: 50%;
+}
+.ctg .sub h5{
+    padding: 20px 15px 0px;
+}
+
+.ctg .sub h2{
+    color: black;
+    padding: 15px;
+
+}
+.ctg .sub h1{
+    color: rgb(222, 77, 77);
+    padding: 0px 15px 15px;
+
+}
+.ctg .sub p{
+    line-height: 30px;
+}
+.ctg .sub a{
+    width: 180px;
+    display: inline-block;
+    height: 50px;
+    background-color: brown;
+    background-color: rgb(222, 77, 77);
+    border-radius: 10px;
+    color: white;
+    text-align: center;
+    padding: 20px 15px;
+    padding-top: 10px;
+    margin: 20px;
+}
+.ctg .into{
+    width: 50%;
+}
+
+
+
+
+
+
+/*  */
+
+
+
+.scde .creative{
+    width: 50%;
+}
+.scde .creative h5{
+    padding: 20px 15px 0px;
+}
+
+.scde .creative h2{
+    color: black;
+    padding: 15px;
+
+}
+.scde .creative h1{
+    color: rgb(222, 77, 77);
+    padding: 0px 15px 15px;
+
+}
+.scde .creative p{
+    padding: 0px 15px;
+    line-height: 30px;
+}
+.scde .creative a{
+    width: 180px;
+    display: inline-block;
+    height: 50px;
+    background-color: brown;
+    background-color: rgb(222, 77, 77);
+    border-radius: 10px;
+    color: white;
+    text-align: center;
+    padding: 20px 15px;
+    padding-top: 10px;
+    margin: 20px;
+}
+.scde .vedio{
+    width: 50%;
+}
+.scde .vedio img{
+    border-radius: 10px;
+    height: 400px;
+    padding: 40px 20px;
+}
+
+
+/* section end */
+/* othercource section start */
+
+.courcedetails{
+    margin: 30px auto;
+    
+    
+}
+.othercource .courcedetails h4{
+    background-color: rgb(254, 234, 234);
+    width: 170px;
+    height: 140px;
+    border-radius: 15px;
+    text-align: center;
+    padding: 50px 20px 50px;
+    color: black;
+    
+}
+
+/* othercource  section end */
+/* othercource  section start */
+.populer .populeritem h2{
+    padding: 30px;
+}
+.populer .populeritem{
+    text-align: center;
+    margin: auto;
+    line-height: 30px;
+    padding: 80px;
+}
+
+
+
+
+
+/* othercource  section end */
+/* button  section start */
+.buttonlink .buttoninfo span{
+    width: 220px;
+    margin: auto;
+    display: inline-block;
+    padding: 30px;
+    margin: 5px;
+
+}
+
+/* button  section end */
+/* linkaddress  section start */
+.linkaddress .linkadd{
+    padding: 0px 40px 20px;
+}
+
+
+/* linkaddress  section end */
+/*  success  section end */
+.success .successstory{
+    width: 30%;
+    padding: 20px;
+    margin: auto;
+    background-color: rgb(252, 252, 227);
+    line-height: 30px;
+}
+.success .successstory h2{
+    color: #1f1e1e;
+    font-size: 20px;
+    line-height: 26px;
+    letter-spacing: .20000000298023224px;
+    padding-top: 16px;
+    padding-bottom: 12px;
+}
+.success .successstory h5{
+    padding-top: 16px;
+    padding-bottom: 12px;
+    line-height: 26px;
+
+}
+/*  success  section end */
+/*  detailscss  section start */
+
+
+/*  detailscss  section end */
+
+/*  tailer  section start */
+
+
+.tailer .storytailer{
+    width: 600px;
+    padding: 30px;
+}
+
+/*  tailer  section end */
+/*  button1  section end */
+
+.buttonlink{
+    text-align: center;
+    display: block;
+    justify-content: space-between;
+    margin-top: 40px;
+    padding-bottom: 50px;
+}
+.buttonlink .button1 a{
+    background-color: red;
+    width: 170px;
+    height: 50px;
+    padding-top: 12px;
+    display: inline-block;
+    border-radius: 10px;
+    color: white;
+
+}
+.button1{
+    justify-content: center;
+}
+/*  button1  section end */
+
+/* service section start */
+
+
+
+
+/* service section end */
+/* map service section start */
+.maps .maplink{
+    width: 1116px;
+    height: 666px;
+    margin: 20px;
+    border-radius: 10px;
+    align-items: center;
+    justify-content: center;
+}
+/*  map service section end */
+/*  map service section end */
+
+.design{
+    padding: 40px;
+}
+/*  map service section end */
+.linkaddress img{
+    width: 320px;
+    height: 320px;
+    display: inline-block;
+}
+
+.samener .semiinfo{
+    width: 50%;
+}
+.samener .semiinfo h2{
+    padding: 20px;
+}
+.infocit .creativeitinfo .link1{
+     width: 215px;
+    display: inline-block;
+    height: 50px;
+    background-color: brown;
+    background-color: rgb(222, 77, 77);
+    border-radius: 10px;
+    color: white;
+    text-align: center;
+    padding: 20px 15px;
+    padding-top: 10px;
+    margin: 20px;
+}
+
+.buttonlink .buttoninfo1 span{
+    width: 190px;
+    margin: auto;
+    display: inline-block;
+    justify-content: space-between;
+    padding: 30px;
+}
+
+.populer .populeritem strong{
+    color: red;
+}
+.success .successstory1{
+    width: 30%;
+    padding: 20px;
+    margin: auto;
+}
+.success .successstory .st{
+    color: #1f1e1e;
+    font-size: 20px;
+    line-height: 26px;
+    letter-spacing: .20000000298023224px;
+    padding-top: 16px;
+    padding-bottom: 12px;
+
+}
+.populer .populeritem  a{
+    display: inline-block;
+    width: 180px;
+    height: 50px;
+    background-color: azure;
+    border: 1px solid black;
+    border-radius: 10px;
+    padding-top: 8px;
+    margin: 30px;
+}
+.populer .populeritem  a:hover{
+    background-color: rgb(222, 77, 77);
+    color: white;
+}
+
+/* footer section start */
+.addressinfo .address{
+    width: 300px;
+    padding: 50px;
+    background-color: #312e2e;
+}
+.addressinfo .address h5{
+    color: white;
+    padding-bottom: 10px;
+}
+.addressinfo .address ul li{
+    list-style-type: none;
+}
+.addressinfo .address ul li div{
+    padding: 10px;
+    color: white;
+}
+.addressinfo .address ul li div a{
+    text-decoration: none;
+    color: white;
+}
+.addressinfo .address ul li a{
+    line-height: 50px;
+    color: white;
+    padding: 5px;
+}
+.paymentdetail .payment{
+    width: 300px;
+    text-align: center;
+}
+.paymentdetail .payment img{
+    width: 200px;
+    height: 100px;
+}
+
+.Copyright{
+    justify-content: space-between;
+}
+
+
